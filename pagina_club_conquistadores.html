@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Página informativa del Club de Conquistadores Piedra Buena.">
+  <title>Club de Conquistadores</title>
+  <style>
+    :root{--navy:#102b46;--blue:#1d5d87;--gold:#f0b323;--paper:#f4f7fa;--ink:#203040}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:white}
+    header{background:linear-gradient(135deg,#102b46,#1d5d87);color:white;padding:22px 7% 70px}
+    nav{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+    .brand{font-weight:800;letter-spacing:.4px}.links{display:flex;gap:18px;flex-wrap:wrap}
+    a{color:inherit}.links a{text-decoration:none;font-size:.95rem}
+    .hero{max-width:850px;margin:72px auto 0;text-align:center}
+    .eyebrow{color:#ffd66b;text-transform:uppercase;font-weight:bold;letter-spacing:2px;font-size:.8rem}
+    h1{font-size:clamp(2.2rem,6vw,4rem);line-height:1.08;margin:14px 0}
+    .hero p{font-size:1.12rem;max-width:650px;margin:0 auto 25px;color:#e8f1f8}
+    .btn{display:inline-block;background:var(--gold);color:#172b3d;text-decoration:none;font-weight:bold;padding:12px 20px;border-radius:7px}
+    main{max-width:1080px;margin:auto;padding:0 22px}
+    section{padding:58px 0;scroll-margin-top:20px}
+    h2{font-size:2rem;color:var(--navy);margin:0 0 12px}
+    .lead{max-width:760px;color:#526273}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:25px}
+    .card{background:var(--paper);padding:22px;border-radius:12px;border-top:4px solid var(--gold)}
+    .card h3{margin:0 0 8px;color:var(--navy)}
+    .band{background:var(--paper)}
+    .band-inner{max-width:1080px;margin:auto;padding:48px 22px}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin-top:22px}
+    .photo{min-height:145px;border-radius:10px;background:linear-gradient(135deg,#dbe7ef,#a9c2d3);display:grid;place-items:center;text-align:center;padding:15px;color:#29445a;font-weight:bold}
+    .contact{background:var(--navy);color:white;padding:38px;border-radius:14px}
+    .contact h2{color:white}.contact p{color:#e3edf5}
+    footer{text-align:center;background:#0a1d30;color:#d5e0e9;padding:22px;font-size:.9rem}
+    @media(max-width:600px){header{padding-bottom:52px}.hero{margin-top:48px}.links{gap:11px}.contact{padding:25px}}
+  </style>
+</head>
+<body>
+<header id="inicio">
+  <nav>
+    <div class="brand">⚑ CONQUISTADORES · PIEDRA BUENA</div>
+    <div class="links">
+      <a href="#nosotros">Nosotros</a><a href="#unidades">Unidades</a>
+      <a href="#actividades">Actividades</a><a href="#galeria">Galería</a><a href="#contacto">Contacto</a>
+    </div>
+  </nav>
+  <div class="hero">
+    <div class="eyebrow">Club de Conquistadores</div>
+    <h1>Siempre listos para servir</h1>
+    <p>Aprendemos, crecemos y compartimos aventuras mientras desarrollamos nuestra fe, nuestras habilidades y el espíritu de servicio.</p>
+    <a class="btn" href="#nosotros">Conocé nuestro club</a>
+  </div>
+</header>
+
+<main>
+  <section id="nosotros">
+    <h2>¿Quiénes somos?</h2>
+    <p class="lead">Somos un grupo que forma parte del Ministerio de Conquistadores de la Iglesia Adventista del Séptimo Día. Nuestro propósito es acompañar a niños y adolescentes en su desarrollo físico, mental, social y espiritual mediante actividades, aprendizaje y servicio a la comunidad.</p>
+    <div class="cards">
+      <article class="card"><h3>Nuestra misión</h3><p>Guiar a cada conquistador para que conozca a Jesús, desarrolle sus talentos y ayude a los demás.</p></article>
+      <article class="card"><h3>Nuestros valores</h3><p>Respeto, responsabilidad, compañerismo, disciplina, solidaridad y fe.</p></article>
+      <article class="card"><h3>Nuestro lema</h3><p>“El amor de Cristo me motiva”.</p></article>
+    </div>
+  </section>
+
+  <section id="unidades">
+    <h2>Nuestras unidades</h2>
+    <p class="lead">Las unidades permiten aprender en equipo, asumir responsabilidades y fortalecer la amistad. Completá estos espacios con los nombres reales de las unidades del club.</p>
+    <div class="cards">
+      <article class="card"><h3>Unidad 1</h3><p>Nombre de la unidad y una breve presentación.</p></article>
+      <article class="card"><h3>Unidad 2</h3><p>Nombre de la unidad y una breve presentación.</p></article>
+      <article class="card"><h3>Unidad 3</h3><p>Nombre de la unidad y una breve presentación.</p></article>
+    </div>
+  </section>
+</main>
+
+<div class="band" id="actividades">
+  <div class="band-inner">
+    <h2>¿Qué hacemos?</h2>
+    <p class="lead">Durante el año realizamos actividades que nos ayudan a aprender cosas nuevas y poner en práctica nuestros valores.</p>
+    <div class="cards">
+      <article class="card"><h3>⛺ Campamentos</h3><p>Vida al aire libre, trabajo en equipo y cuidado de la naturaleza.</p></article>
+      <article class="card"><h3>🧭 Especialidades</h3><p>Aprendizaje de habilidades prácticas, conocimientos y talentos.</p></article>
+      <article class="card"><h3>🤝 Servicio</h3><p>Proyectos solidarios y acciones para ayudar a nuestra comunidad.</p></article>
+      <article class="card"><h3>📖 Fe y valores</h3><p>Momentos de reflexión, estudio de la Biblia y crecimiento espiritual.</p></article>
+    </div>
+  </div>
+</div>
+
+<main>
+  <section id="galeria">
+    <h2>Galería de actividades</h2>
+    <p class="lead">Acá se pueden agregar fotografías de campamentos, reuniones y proyectos del club, siempre con autorización de las personas responsables.</p>
+    <div class="gallery">
+      <div class="photo">Foto de un campamento</div>
+      <div class="photo">Foto de una actividad</div>
+      <div class="photo">Foto de un proyecto solidario</div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="contact">
+      <h2>¿Querés conocer el club?</h2>
+      <p>Para obtener información sobre reuniones o actividades, comunicate mediante los canales oficiales de la iglesia o del club.</p>
+      <p><strong>Iglesia:</strong> Piedra Buena · CABA</p>
+      <p><strong>Dirección y horarios:</strong> agregar únicamente información institucional verificada y autorizada.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Club de Conquistadores Piedra Buena · Iglesia Adventista del Séptimo Día<br>
+  “Por la gracia de Dios, seré puro, bondadoso y leal”.
+</footer>
+</body>
+</html>
